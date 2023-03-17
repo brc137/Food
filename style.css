@@ -8,7 +8,7 @@ body, html {
 .header {
   padding: 10px;
   text-align: center;
-  color: white;
+
   font-size: 150%;
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("restaurant2.jpg");
@@ -20,54 +20,57 @@ body, html {
   position: relative;
     
 }
-
+section{
+  width:100%;
+  margin-top: 150px;;
+}
 .p{
   font-family:cursive;
   text-align: center;
-  margin: 0px;
-  position: absolute;
-  display: inline-block;
-  top:38%;
-  left:40%;
+  margin-top: 0px;
+  width: auto;
+  text-indent:10%;
+  color:white;
+
 }
 h1{
     font-weight: 500;
-    position: absolute;
-    display: inline-block;
-    top: 35%;
-    left: 30%;
-    padding:5%;
-    transform: translate(-50%, -50%);
     color: rgb(225, 225, 225);
-    font-size: 200%;
+    font-size: 400%;
+    margin-bottom:0px;
+    padding-bottom: 0px;
 }
 
 /* Style the list inside the menu */
 ul {
   position:absolute;
-  top: 40%;
-  left: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   list-style-type: none;
-  text-align: right;
 }
 li{
   width:150%;
-  display:block;
-  text-align: left;
+  color:rgb(52, 52, 52);
+  text-align: center;
   font-size: 150%;
   padding: 5%;
   margin: 3px;
+  font-weight:lighter;
+ 
 }
-
-a{
+i{
   color: white;
+  
+}
+a{
+  color:rgb(52, 52, 52);
   text-decoration : none;
   padding:5px;
+  font-weight:lighter;
 }
 a:hover{
-  border-color:white;
-  border-width: 2px;
-  border-style: ridge;
+  
 }
 
 article {
@@ -155,18 +158,19 @@ section::after {
 }
 
 .button {
-    background-color: #2A5DB0;
+    background-color: #ffffff;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: rgb(63, 63, 63);
+    padding: 20px 40px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
+    border-radius: 40px;
 }
 
 .button:hover {
-    background-color: #4682B4;
+    font-size: 20px;
 }
 
 /* Change unordered list from disc (default) to circle, square, or none. */
