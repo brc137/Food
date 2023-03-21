@@ -8,30 +8,76 @@ body, html {
 .header {
   padding: 10px;
   text-align: center;
-  background: #003594;
-  color: white;
-  font-size: 30px;
+  font-size: 150%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("restaurant2.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+    
 }
+section{
+  width:100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.p{
+  font-family:cursive;
+  text-align: center;
+  margin-top: 0px;
+  width: auto;
+  text-indent:10%;
+  color:white;
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 10%;
-  background: white;
-  padding: 20px;
+}
+h1{
+    font-weight: 500;
+    color: rgb(225, 225, 225);
+    font-size: 100px;
+    margin-bottom:0px;
+    padding-bottom: 0px;
 }
 
 /* Style the list inside the menu */
-nav ul {
+ul {
+  display:inline-block;
   list-style-type: none;
-  padding: 0;
+
+}
+li{
+  color:rgb(52, 52, 52);
+  text-align: center;
+  font-weight:lighter;
+ 
+}
+i{
+  color: white;
+  
+}
+a{
+  color:rgb(52, 52, 52);
+  text-decoration : none;
+  padding:5px;
+  font-weight:lighter;
+}
+a:hover{
+  
 }
 
 article {
   float: left;
   padding: 10px;
   width: 80%;
-  background-color: white;
+  color: white;
+  background-color: ;
 }
 
 /* Clear floats after the columns */
@@ -91,7 +137,9 @@ section::after {
     padding-right: 20px;
   }
 
-
+.center{
+  text-align: center;
+}
 .blockquote {
     background-color: #;
     border-top: 3px solid #000;
@@ -111,20 +159,25 @@ section::after {
 }
 
 .button {
-    background-color: #2A5DB0;
+    background-color: #ffffff;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: rgb(63, 63, 63);
+    padding: 20px 40px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
+    border-radius: 40px;
 }
 
-.button:hover {
-    background-color: #4682B4;
+.button:hover{
+  color:blue;
+
 }
 
+img{
+  width:25px;
+}
 /* Change unordered list from disc (default) to circle, square, or none. */
 .ul {
     list-style-type: disc;
