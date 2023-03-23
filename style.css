@@ -12,6 +12,23 @@ body, html {
   color: white;
   font-size: 30px;
 }
+img{
+  width: 100%;
+  height; auto;
+}
+div h1{
+  text-align: center;
+  text-decoration: underline;
+}
+.sos{
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  height: 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* Create two columns/boxes that floats next to each other */
 nav {
@@ -19,6 +36,7 @@ nav {
   width: 10%;
   background: white;
   padding: 20px;
+  text-align: center;
 }
 
 /* Style the list inside the menu */
@@ -27,11 +45,14 @@ nav ul {
   padding: 0;
 }
 
+nav ul li{
+  text-decoration: none;
+}
+
 article {
   float: left;
   padding: 10px;
   width: 80%;
-  background-color: white;
 }
 
 /* Clear floats after the columns */
